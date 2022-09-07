@@ -1,7 +1,7 @@
 from ast import Str
 import pymysql
 from CapaNegocio.Database import *
-
+#comentario prueba para github
 class Personas(Database):
     def __init__(self):
         super().__init__()
