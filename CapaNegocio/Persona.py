@@ -18,6 +18,7 @@ class Personas(Database):
             raise 
         
     def getPersonaxCarnet(self,carnet):
+        # creo este metodo para poder buscar persona por carnet
         sql="SELECT * FROM aseguradora.persona where personaCarnetConductor ='{}'".format(carnet)
         try:
             self.cursor.execute(sql)
