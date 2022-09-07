@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>589</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistema de Gestion de Seguros &quot;La Segura&quot;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>589</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuCRUD_AUTOS">
+    <property name="title">
+     <string>CRUD AUTOS</string>
+    </property>
+    <addaction name="actionAutos"/>
+   </widget>
+   <widget class="QMenu" name="menuCrud_Personas">
+    <property name="title">
+     <string>Crud Personas</string>
+    </property>
+    <addaction name="actionPersonas"/>
+    <addaction name="separator"/>
+    <addaction name="actionSiniestros"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuCRUD_AUTOS"/>
+   <addaction name="menuCrud_Personas"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionAutos">
+   <property name="text">
+    <string>Autos</string>
+   </property>
+  </action>
+  <action name="actionPersonas">
+   <property name="text">
+    <string>Personas</string>
+   </property>
+  </action>
+  <action name="actionSiniestros">
+   <property name="text">
+    <string>Siniestros</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
