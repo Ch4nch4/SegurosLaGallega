@@ -49,7 +49,7 @@ class Iniciar:
         self.ventanaSiniestros.btnExcel.clicked.connect(self.Click_btnExcel)
         self.ventanaSiniestros.btnPersonasaWord.clicked.connect(self.Clicl_btnPersonasaWord)
        # self.llenar_combos()
-        
+       # el llenar comboesta incompleto
             
     def llenar_combos(self):
         self.ventanaSiniestros.comboBoxVehiculo.clear()
