@@ -29,6 +29,7 @@ class Autos(Database):
             raise
     
     def insertAuto(self,matricula,modelo,anio):
+        #inserta un auto en la bd
         sql="INSERT INTO aseguradora.auto VALUES('{}','{}',{})".format(matricula,modelo,anio)
         try:
             self.cursor.execute(sql)
